@@ -32,7 +32,7 @@ Her zaman pull requestleri bekliyoruz. Büyük değişiklikler için tartışmak
 
 ## Data
 
-Datas are pulling from Kandilli Rasathanesi that affiliated to Bosphorus University. Before using this api for commercial purpose please contact with Bosphorus University.
+Datas are pulling from Kandilli Rasathanesi that affiliated to Bogazici University. Before using this api for commercial purpose please contact with Bogazici University.
 
 Veriler Boğaziçi Üniversitesi Rektörlüğüne bağlı olan Kandilli rasathanesinden alınmaktadır. Ticari amaçlı kullanmadan önce lütfen Boğaziçi Üniversitesi ile iletişime geçin.
 
