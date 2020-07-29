@@ -3,11 +3,13 @@
 # Turkey Earthquakes API
 
 An API Service that you can get datas about earthquakes in Turkey.
+
 Türkiye'deki deprem verilerini çekebileceğiniz bir API servisi.
 
 ## Launching the API
 
 You can launch the api with the code below.
+
 API'yi aşağıdaki kod ile ayağa kaldırabilirsiniz.
 
 ```bash
