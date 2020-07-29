@@ -5,8 +5,12 @@ const router = express.Router();
 
 const url = 'http://www.koeri.boun.edu.tr/scripts/lst0.asp';
 
-async function getData() {
-    return 'deneme';
+const getData = async () => {
+    const res = await axios.get(url);
+    const $ = cheerio.load(res.data);
+
+    const earthquakesText = $('pre').html();
+    return earthquakesText;
 }
 
 router.get('/', async (req, res) => {
