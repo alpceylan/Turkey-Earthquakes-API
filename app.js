@@ -3,13 +3,12 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
-require('dotenv').config()
 
 const earthquakesRouter = require('./routes/earthquakes');
 
 const app = express();
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3000;
 
 app.use(logger('dev'));
 app.use(express.json());
