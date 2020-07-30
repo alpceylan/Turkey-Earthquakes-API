@@ -6,14 +6,32 @@ An API Service that you can get datas about earthquakes in Turkey.
 
 Türkiye'deki deprem verilerini çekebileceğiniz bir API servisi.
 
+<img src="https://user-images.githubusercontent.com/31375123/88917771-fe218080-d270-11ea-8532-01cfe02c7827.jpg" width=25% height=25%>
+
+## Live Version
+
+You can access live version through this url, please read entire document before using it.
+
+Canlı versiyonuna aşağıdakı link ile ulaşabilirsiniz, lütfen kullanmadan önce tüm dokümanı okuyun.
+
+https://turkiyedepremler.herokuapp.com/api
+
 ## Launching the API
 
 You can launch the api with the code below.
 
 API'yi aşağıdaki kod ile ayağa kaldırabilirsiniz.
 
+
+Without nodemon:
+
 ```bash
 npm start
+```
+If you have nodemon globally installed:
+
+```bash
+npm run start:dev
 ```
 
 ## Routes
@@ -28,7 +46,7 @@ npm start
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Her zaman pull requestleri bekliyoruz. Büyük değişiklikler için tartışmak amacıyla ilk olarak issue açınız.
+Her zaman pull requestleri bekliyoruz. Büyük değişiklikler için ilk olarak issue açınız.
 
 ## Data
 
