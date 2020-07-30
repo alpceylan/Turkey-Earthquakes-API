@@ -2,7 +2,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 
 // Models
-const Earthquake = require('../models/Earthquake');
+const Earthquake = require('../models/earthquake');
 
 class EarthquakeService {
     static getData = async () => {
