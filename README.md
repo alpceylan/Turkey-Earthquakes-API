@@ -40,7 +40,7 @@ npm run start:dev
 | --- | --- | --- | --- |
 | /api/ | `GET` | Empty | List latest 500 earthquakes. |
 | /api/last-24-hours | `GET` | Empty | List earthquakes that happened in last 24 hours. |
-| /by-date/:date | `GET` | Empty | You can get earthquakes in the date you want with this route the usage is like this: /20200729 (2020/07/29) |
+| /api/by-date/:date | `GET` | Empty | You can get earthquakes in the date you want with this route the usage is like this: /20200729 (2020/07/29) |
 
 
 ## Contributing
